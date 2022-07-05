@@ -1,0 +1,12 @@
+
+.footer-bg {
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 60px;
+    background-color: #39454d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+  }

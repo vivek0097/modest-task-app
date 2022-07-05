@@ -1,0 +1,66 @@
+header .nav-btn {
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  font-size: 1.8rem;
+}
+
+nav ul {
+  text-decoration: none;
+}
+.list {
+  list-style-type: none;
+  list-style: none;
+  margin-right: 30px;
+
+  color: #ccc;
+}
+.list:hover {
+  border-radius: 5px;
+  border: 2px solid #ccc;
+}
+.nav-bg {
+  width: 100vw;
+  background-color: #1d2026;
+  padding: 12px;
+  overflow: hidden;
+  height: 70px;
+}
+
+
+
+@media screen and (max-width: 780) {
+ 
+  header .nav-btn {
+    visibility: visible;
+    opacity: 1;
+  }
+  header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: white;
+    transition: 1s;
+    transform: translate(-100vh);
+  }
+  header .responsive_nav {
+    transform: none;
+  }
+  nav .nav-close-btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+}

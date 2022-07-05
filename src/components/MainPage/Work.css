@@ -1,0 +1,50 @@
+.side-line {
+  margin-top: 10px;
+  height: 35px;
+  width: 10px;
+}
+
+.work-ct {
+  height: 100%;
+  width: 100vw;
+  background-color: #4d5961;
+  position: relative;
+}
+.heading-work {
+  color: #eee;
+  font-size: 36px;
+  font-weight: 600;
+}
+.work-cards {
+  width: 32%;
+  height: 230px;
+  outline: none;
+  /* margin-right: 20px; */
+}
+.work-images {
+  width: 100%;
+}
+.loadm-btn {
+  background-color: #39454d;
+  color: #ccc;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.card {
+  overflow: hidden;
+}
+
+@media screen and (max-width: 480px) {
+  .work-cards {
+    width: 100%;
+    height: 230px;
+    outline: none;
+    /* margin-right: 20px; */
+  }
+  .work-images {
+    width: 100%;
+  }
+}

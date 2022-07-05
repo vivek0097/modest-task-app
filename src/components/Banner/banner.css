@@ -1,0 +1,64 @@
+.sm-image {
+  height: 750px;
+}
+
+.item-bg {
+  background-repeat: no-repeat;
+}
+.text-banner {
+  text-align: left;
+  font-size: 14px;
+}
+.heading-banner {
+  text-align: left;
+  font-size: 35px;
+}
+.view-more {
+  background-color: #23b7a3;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+
+  border: 2px solid #23b7a4;
+}
+.view-video {
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  background-color: rgba(222, 180, 180, 0);
+  border: 2px solid #ffffff;
+}
+
+.caption-text {
+  margin-top: -350px;
+  position: absolute;
+}
+@media screen and (max-width: 780px) {
+  .heading-banner {
+    font-size: 25px;
+  }
+  .text-banner {
+    text-align: left;
+    font-size: 15px;
+  }
+  .sm-image {
+    height: 100vh;
+
+    background-repeat: no-repeat;
+  }
+  .caption-text {
+    margin-bottom: 280px;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 480px) {
+  .heading-banner {
+    font-size: 20px;
+  }
+  .text-banner {
+    text-align: left;
+    font-size: 14px;
+  }
+}
