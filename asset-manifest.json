@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/modest-task-app/static/css/main.531d8f17.css",
+    "main.js": "/modest-task-app/static/js/main.f0ef090d.js",
+    "static/js/787.3cf42fc4.chunk.js": "/modest-task-app/static/js/787.3cf42fc4.chunk.js",
+    "index.html": "/modest-task-app/index.html",
+    "main.531d8f17.css.map": "/modest-task-app/static/css/main.531d8f17.css.map",
+    "main.f0ef090d.js.map": "/modest-task-app/static/js/main.f0ef090d.js.map",
+    "787.3cf42fc4.chunk.js.map": "/modest-task-app/static/js/787.3cf42fc4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.531d8f17.css",
+    "static/js/main.f0ef090d.js"
+  ]
+}
