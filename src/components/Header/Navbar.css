@@ -4,7 +4,7 @@ header .nav-btn {
   background: transparent;
   border: none;
   outline: none;
-  /* color: white; */
+  color: white;
   visibility: hidden;
   opacity: 0;
   font-size: 1.8rem;

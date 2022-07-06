@@ -5,7 +5,7 @@ import { FaBars } from "react-icons/fa";
 import { FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
-  // const [Mobile, setMobile] = useState(true);
+  
   const navRef = useRef();
 
   const showNavbar = () => {
@@ -23,33 +23,33 @@ const Navbar = () => {
             <div className="col-9 col-md-12 col-lg-9 d-flex justify-content-lg-end justify-content-start">
               <nav className="nav-links" ref={navRef}>
                 <ul className="d-flex justify-content-center">
-                  <NavLink to="/">
-                    <li className="list px-2">HOME</li>
+                  <NavLink to="/" style={{ textDecoration: 'none' }}>
+                    <li className="list px-2" >HOME</li>
                   </NavLink>
-                  <NavLink to="/about">
+                  <NavLink to="/about" style={{ textDecoration: 'none' }}>
                     <li className="list px-2">ABOUT</li>
                   </NavLink>
-                  <NavLink to="/work">
+                  <NavLink to="/work" style={{ textDecoration: 'none' }}>
                     <li className="list px-2">WORK</li>
                   </NavLink>
-                  <NavLink to="/services">
+                  <NavLink to="/services" style={{ textDecoration: 'none' }}>
                     <li className="list px-2">SERVICES</li>
                   </NavLink>
-                  <NavLink to="/features">
+                  <NavLink to="/features" style={{ textDecoration: 'none' }}>
                     <li className="list px-2">FEATURES</li>
                   </NavLink>
-                  <NavLink to="/contact">
+                  <NavLink to="/contact" style={{ textDecoration: 'none' }}>
                     <li className="list px-2">CONTACT</li>
                   </NavLink>
                 </ul>
                 <button onClick={showNavbar} className="nab-btn nav-close-btn">
-                  <FaTimes />
+                  {/* <FaTimes /> */}
                 </button>
               </nav>
             </div>
             <button onClick={showNavbar} className="nab-btn ">
               {" "}
-              <FaBars />
+              {/* <FaBars /> */}
             </button>
           </div>
         </header>
